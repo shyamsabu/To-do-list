@@ -1,0 +1,124 @@
+body {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.banner {
+  height: 400px;
+  background: #cfcb43;
+  display: flex;
+  align-items: center;
+  padding: 60px;
+  color: #fff;
+}
+.banner .title_wrap span {
+  font-size: 70px;
+  font-weight: 200;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1;
+}
+.banner .count_wrap {
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.5098039216);
+  border-radius: 5px;
+  color: #000;
+  box-shadow: 0px 0px 7px 0px rgba(100, 100, 100, 0.27);
+}
+.banner .count_wrap .sub_count_wrap {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner .count_wrap .sub_count_wrap li {
+  font-weight: 300;
+}
+.banner .count_wrap .sub_count_wrap li .count {
+  font-weight: 500;
+  padding: 9px;
+  background: #ecfd8f;
+  border-radius: 50%;
+  font-size: 14px;
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  border: 1px solid #efb616;
+}
+.banner .cmpltn_percentage {
+  width: 100%;
+  text-align: center;
+  margin-top: 10%;
+  color: #000;
+}
+.banner .cmpltn_percentage span {
+  font-size: 30px;
+  color: #000;
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.list_section {
+  padding: 70px 0;
+}
+.list_section .upcomming_wrap li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #f5df91;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 7px 0px rgba(100, 100, 100, 0.27);
+  position: relative;
+}
+.list_section .upcomming_wrap li i {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #f1ec4f;
+  border: 1px solid #efba20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+.list_section .upcomming_wrap li ._list_title_wrap {
+  line-height: 1;
+}
+.list_section .upcomming_wrap li ._list_title_wrap h4 {
+  font-size: 16px;
+  margin-bottom: 2px;
+  line-height: 1;
+}
+.list_section .upcomming_wrap li ._list_title_wrap .date {
+  font-size: 11px;
+  color: #9b9a9a;
+  line-height: 1;
+}
+.list_section .upcomming_wrap li .delete_btn {
+  color: #dd3f3f;
+  position: absolute;
+  right: 30px;
+  font-size: 19px;
+  cursor: pointer;
+}
+.list_section .upcomming_wrap li .delete_btn:hover {
+  color: red;
+}/*# sourceMappingURL=main.css.map */

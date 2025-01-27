@@ -1,0 +1,127 @@
+body{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h3{
+    font-size:20px;
+    margin-bottom: 10px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.banner{
+    height: 400px;
+    background: #cfcb43;
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    color: #fff;
+    .title_wrap{
+        span{
+            font-size: 70px;
+            font-weight:200;
+            color: #fff;
+            text-transform:uppercase;
+            line-height: 1;
+        }
+    }
+    .count_wrap{
+        padding: 15px;
+        background: #ffffff82;
+        border-radius: 5px;
+        color: #000;
+        box-shadow: 0px 0px 7px 0px rgb(100 100 100 / 27%);
+        .sub_count_wrap{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            li{
+                font-weight: 300;
+                .count{
+                    font-weight: 500;
+                    padding: 9px;
+                    background: #ecfd8f;
+                    border-radius: 50%;
+                    font-size: 14px;
+                    width: 30px;
+                    height: 30px;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-left: 10px;
+                    border: 1px solid #efb616;               
+                }
+            }
+        }
+    }
+    .cmpltn_percentage{
+        width: 100%;
+        text-align: center;
+        margin-top: 10%;
+        color: #000;
+        span{
+            font-size: 30px;
+            color: #000;
+            font-weight: 500;
+            margin-right: 5px;
+        }        
+    }
+}
+
+
+.list_section{
+    padding: 70px 0;
+    .upcomming_wrap{
+        li{
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border: 1px solid #f5df91;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0px 0px 7px 0px rgba(100, 100, 100, 0.27);
+            position: relative;
+            i{
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                background: #f1ec4f;
+                border: 1px solid #efba20;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 15px;
+            }
+            ._list_title_wrap{
+                line-height: 1;
+                h4{
+                    font-size: 16px;
+                    margin-bottom: 2px;
+                    line-height: 1;            
+                }
+                .date{
+                    font-size: 11px;
+                    color: #9b9a9a;
+                    line-height: 1;
+                }
+            }
+            .delete_btn{
+                color: #dd3f3f;
+                position: absolute;
+                right: 30px;
+                font-size: 19px;
+                cursor: pointer;
+                &:hover{
+                    color: red;
+                }
+            }
+        }
+    }
+}
